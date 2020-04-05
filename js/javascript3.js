@@ -7,8 +7,8 @@ function changeParaText() {
     //my paragraph is an object
     //my paragraph has attribute innerText
     targetPara.innerText = "Hello World";
-    targetPara.style.fontSize="50px";
-    targetPara.style.backgroundColor= "red";
+    targetPara.style.fontSize = "50px";
+    targetPara.style.backgroundColor = "red";
     targetPara.style.color = "white";
 }
 
