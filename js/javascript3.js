@@ -6,7 +6,16 @@ function changeParaText() {
     targetPara = document.getElementById("mypara");
     //my paragraph is an object
     //my paragraph has attribute innerText
-    targetPara.innerText = "Hello World";
+    numA = document.getElementById("numA");
+    numB = document.getElementById("numB");
+    a = Number(numA.value);
+    b = Number(numB.value);
+    c = a * b;
+    // b = 3;
+    // c = a + b;
+
+
+    targetPara.innerText = c;
     targetPara.style.fontSize = "50px";
     targetPara.style.backgroundColor = "red";
     targetPara.style.color = "white";
