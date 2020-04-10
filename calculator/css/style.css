@@ -34,10 +34,22 @@ input{
     background-color : #656565;
 }
 
+.special:active{
+    background-color : #808080;
+}
+
 .operator{
     background-color: #fd9f2b;
 }
 
+.operator:active{
+    background-color:#ffb861;
+}
+
 .numbers{
     background-color: #808080;
+}
+
+.numbers:active{
+    background-color: #ababab;
 }
